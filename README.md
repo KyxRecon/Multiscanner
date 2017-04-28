@@ -25,7 +25,7 @@ The words in the word_file are separated by a end_line:
 
 [fullhelp]
 
-    python multisearcher.py -h
+    python multiscan.py -h
     
 ### License
 ```
