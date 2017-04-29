@@ -1,21 +1,21 @@
-[Multiscanner]
-The Multiscanner is an open source scan which uses some engines
-to find web sites with the use of keywords and phrases
+# Multiscanner
+Multiscanner is an open source scanner which uses some search engines
+to find websites with the use of keywords and phrases
 
-[Dependencies]
+## Dependencies
 
 * Python 2.7+
 * requests
 * BeautifulSoup
 
-[Installation]
+## Installation
 	Download the script first !
 	Excute it :
 	cd Multiscanner
 	pip install -r requirements.txt
-[usage]
+## Usage
 
-	python multisearcher.py -f word_file -o output -t threads
+	python multiscanner.py -f word_file -o output -t threads
 	
 The words in the word_file are separated by a end_line:
 	
@@ -23,7 +23,7 @@ The words in the word_file are separated by a end_line:
 	products index.php?option=
 	...
 
-[fullhelp]
+## Full Help
 
     python multiscan.py -h
     
@@ -48,5 +48,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
-# Multiscanner
+``
